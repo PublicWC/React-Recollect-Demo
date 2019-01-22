@@ -1,20 +1,19 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { afterChange, store } from "react-recollect";
-import Products from "./Products/Products";
-import loadProducts from "./store/updaters/loadProducts";
-import updatePrices from "./store/updaters/updatePrices";
-import "./index.css";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { afterChange, store } from 'react-recollect';
+import TaskList from './TaskList';
 
-store.loading = true;
+const storedData = JSON.parse(localStorage.getItem('store'));
+store.tasks = storedData
+  ? storedData.tasks
+  : [{
+    id: 1,
+    name: 'Example task',
+    done: false,
+  }];
 
-ReactDOM.render(<Products />, document.getElementById("root"));
+ReactDOM.render(<TaskList />, document.getElementById('root'));
 
-loadProducts().then(() => {
-  // Every few seconds check for new prices
-  setInterval(updatePrices, 3000);
-});
-
-afterChange(props => {
-  localStorage.store = JSON.stringify(props.store);
+afterChange(() => {
+  localStorage.setItem('store', JSON.stringify(store));
 });
