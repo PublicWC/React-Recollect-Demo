@@ -1,13 +1,13 @@
 {
-  "main.css": "//React-Recollect-Demo/static/css/main.527b69b8.chunk.css",
-  "main.js": "//React-Recollect-Demo/static/js/main.c1cb4af1.chunk.js",
-  "main.js.map": "//React-Recollect-Demo/static/js/main.c1cb4af1.chunk.js.map",
-  "static/js/1.082eaef2.chunk.js": "//React-Recollect-Demo/static/js/1.082eaef2.chunk.js",
-  "static/js/1.082eaef2.chunk.js.map": "//React-Recollect-Demo/static/js/1.082eaef2.chunk.js.map",
-  "runtime~main.js": "//React-Recollect-Demo/static/js/runtime~main.446e7e35.js",
-  "runtime~main.js.map": "//React-Recollect-Demo/static/js/runtime~main.446e7e35.js.map",
-  "static/css/main.527b69b8.chunk.css.map": "//React-Recollect-Demo/static/css/main.527b69b8.chunk.css.map",
-  "index.html": "//React-Recollect-Demo/index.html",
-  "precache-manifest.e341d2f23b6314ce59a65d9ec94a02af.js": "//React-Recollect-Demo/precache-manifest.e341d2f23b6314ce59a65d9ec94a02af.js",
-  "service-worker.js": "//React-Recollect-Demo/service-worker.js"
+  "main.css": "/React-Recollect-Demo/static/css/main.527b69b8.chunk.css",
+  "main.js": "/React-Recollect-Demo/static/js/main.c1cb4af1.chunk.js",
+  "main.js.map": "/React-Recollect-Demo/static/js/main.c1cb4af1.chunk.js.map",
+  "static/js/1.082eaef2.chunk.js": "/React-Recollect-Demo/static/js/1.082eaef2.chunk.js",
+  "static/js/1.082eaef2.chunk.js.map": "/React-Recollect-Demo/static/js/1.082eaef2.chunk.js.map",
+  "runtime~main.js": "/React-Recollect-Demo/static/js/runtime~main.b7d22ee7.js",
+  "runtime~main.js.map": "/React-Recollect-Demo/static/js/runtime~main.b7d22ee7.js.map",
+  "static/css/main.527b69b8.chunk.css.map": "/React-Recollect-Demo/static/css/main.527b69b8.chunk.css.map",
+  "index.html": "/React-Recollect-Demo/index.html",
+  "precache-manifest.83889afbb8ae45e3126292a744f8aa00.js": "/React-Recollect-Demo/precache-manifest.83889afbb8ae45e3126292a744f8aa00.js",
+  "service-worker.js": "/React-Recollect-Demo/service-worker.js"
 }
